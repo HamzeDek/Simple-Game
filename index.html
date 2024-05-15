@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest: JavaScript Adventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>CodeQuest: JavaScript Adventures</h1>
+            <div id="user-info">
+                <span id="xp">XP: 0</span>
+                <span id="level">Level: 1</span>
+            </div>
+        </header>
+        <main>
+            <section id="story-section">
+                <p id="story-text">Welcome to Varland! Your first quest is to restore the data archives.</p>
+            </section>
+            <section id="challenge-section">
+                <p id="challenge-text">Create variables to store information about villagers.</p>
+                <div id="code-editor">
+                    <textarea id="code-input" rows="10" cols="50">// Write your code here</textarea>
+                </div>
+                <button id="run-code">Run Code</button>
+                <p id="feedback"></p>
+            </section>
+        </main>
+    </div>
+    <script src="job.js"></script>
+</body>
+</html>
